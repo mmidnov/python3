@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-25 13:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: okurmen/templates/base.html:123
+msgid "Okurmen"
+msgstr "Окурмен"
+
+#: okurmen/templates/base.html:131
+msgid "Home"
+msgstr "Башкы"
+
+#: okurmen/templates/base.html:134
+msgid "Teachers"
+msgstr "Мугалимдер"
+
+#: okurmen/templates/base.html:137 okurmen/templates/groups.html:9
+#: okurmen/templates/teachers.html:12
+msgid "Groups"
+msgstr "Группалар"
+
+#: okurmen/templates/base.html:140
+msgid "Students"
+msgstr "Студенттер"
+
+#: okurmen/templates/base.html:143
+msgid "Managers"
+msgstr "Менеджерлер"
+
+#: okurmen/templates/groups.html:9
+msgid "Trainer"
+msgstr "Тренер"
+
+#: okurmen/templates/groups.html:9
+msgid "Mentor"
+msgstr "Насаатчы"
+
+#: okurmen/templates/groups.html:10
+msgid "Start Date"
+msgstr "Башталган күнү"
+
+#: okurmen/templates/groups.html:10
+msgid "End Date"
+msgstr "Аяктоо күнү"
+
+#: okurmen/templates/home.html:6
+msgid "This is the home page content."
+msgstr "Бул башкы беттин мазмуну."
+
+#: okurmen/templates/manager_details.html:8
+#, fuzzy
+#| msgid "Managers"
+msgid "Manager Number"
+msgstr "Менеджердин Номери"
+
+#: okurmen/templates/manager_details.html:9
+msgid "Description"
+msgstr "Сүрөттөмө"
+
+#: okurmen/templates/manager_details.html:10
+msgid "Сколько студентов"
+msgstr "Канча студент"
+
+#: okurmen/templates/managers.html:9 okurmen/templates/students.html:9
+msgid "Number"
+msgstr "Номер"
+
+#: okurmen/templates/student_details.html:6
+#, fuzzy
+#| msgid "Students"
+msgid "Student Number"
+msgstr "Студенттер"
+
+#: okurmen/templates/student_details.html:7
+msgid "Payment Amount"
+msgstr "Төлөм суммасы"
+
+#: okurmen/templates/student_details.html:8
+#, fuzzy
+#| msgid "Start Date"
+msgid "Payment Date"
+msgstr "Башталган күнү"
+
+#: okurmen/templates/student_details.html:9
+#, fuzzy
+#| msgid "Managers"
+msgid "Manager"
+msgstr "Менеджерлер"
+
+#: okurmen/templates/student_details.html:16
+msgid "There is no receipt for payment."
+msgstr "Төлөгөндүгү үчүн квитанция жок."
+
+#: okurmen/templates/student_details.html:21
+msgid "Download Receipt"
+msgstr "Жүктөп алуу квитанциясы"
+
+#: okurmen/templates/teachers.html:11
+msgid "Language Programming"
+msgstr "Программалоо тили"
+
+#: okurmen/templates/teachers.html:12
+msgid "View groups"
+msgstr "Группаларды көрүү"
+
+#: okurmens/settings.py:110
+msgid "English"
+msgstr ""
+
+#: okurmens/settings.py:111
+msgid "Russian"
+msgstr ""
+
+#: okurmens/settings.py:112
+msgid "Kyrgyzstan"
+msgstr ""
+
+#~ msgid "How many students"
+#~ msgstr "Канча студент"
+
+#~ msgid "Payment Receipt"
+#~ msgstr "Төлөм квитанциясы"
+
+#, fuzzy
+#~| msgid "Groups"
+#~ msgid "Group"
+#~ msgstr "Группалар"
+
+#~ msgid "Welcome to Okurmen!"
+#~ msgstr "Окурменге кош келиңиз!"
+
+#, fuzzy
+#~| msgid "Welcome to Okurmen!"
+#~ msgid "Welcome to Okurmen Home"
+#~ msgstr "Окурменге кош келиңиз!"
+
+#, fuzzy
+#~| msgid "Teachers"
+#~ msgid "Our Teachers"
+#~ msgstr "Биздин мугалимдер"
+
+#, fuzzy
+#~| msgid "Welcome to Okurmen!"
+#~ msgid "Teachers - Okurmen"
+#~ msgstr "Окурменге кош келиңиз!"

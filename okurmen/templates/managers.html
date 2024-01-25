@@ -1,0 +1,17 @@
+<!-- okurmen/templates/managers.html -->
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+    <ul>
+        {% for manager in managers_data %}
+            <li>
+                {{ manager.name }} - <span>{% translate "Number" %}</span>: {{ manager.manager_number }} <a href='{% url 'managers_details' manager.id %}'><i class="bi bi-exclamation-square-fill" style='cursor:pointer'></i></a>
+
+                {% comment %} <span> {{manager.responsibilities}} </span> {% endcomment %}
+                {% comment %} <a href='{% url 'student_details' student.id %}'><i class="bi bi-exclamation-square-fill" style='cursor:pointer'></i></a> {% endcomment %}
+                {% comment %} <br/> Payment: {{ student.payment }} <br/> Payment Date: {{ student.payment_date}} {% endcomment %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

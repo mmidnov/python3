@@ -1,0 +1,14 @@
+<!-- okurmen/templates/groups.html -->
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+    <ul>
+        {% for group in groups_data %}
+            <li>
+                {% translate "Groups" %}: <a href='{% url 'students' %}'>{{ group.name }}</a> - {% translate "Trainer" %}: {{ group.trainer.name }} - {% translate "Mentor" %}: {{ group.mentor }} -
+                {% translate "Start Date" %}: {{ group.start_date }} - {% translate "End Date" %}: {{ group.end_date }}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

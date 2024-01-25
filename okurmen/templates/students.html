@@ -1,0 +1,14 @@
+<!-- okurmen/templates/students.html -->
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+    <ul>
+        {% for student in students_data %}
+            <li>
+                {{ student.name }} <span>- {% translate "Number" %} </span> : {{ student.number }}<a href='{% url 'student_details' student.id %}'><i class="bi bi-exclamation-square-fill" style='cursor:pointer'></i></a>
+                {% comment %} <br/> Payment: {{ student.payment }} <br/> Payment Date: {{ student.payment_date}} {% endcomment %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,23 @@
+<!-- okurmen/templates/student_details.html -->
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+    <h2>{{ student.name }}</h2>
+    <p><span>{% translate "Student Number" %} </span>: {{ student.number }}</p>
+    <p><span>{% translate "Payment Amount" %}</span>: {{ student.payment }}</p>
+    <p><span>{% translate "Payment Date" %}</span>: {{ student.payment_date }}</p>
+    <p><span>{% translate "Manager" %}</span>: {{ student.manager.name }}</p>
+    <!-- Другие детали студента, если нужно -->
+
+    {% if student.payment_receipt %}
+        <h3><span>Payment Receipt</span>:</h3>
+        <img src="{{ student.payment_receipt.url }}" alt="Payment Receipt">
+    {% else %}
+        <p><span>{% translate "There is no receipt for payment." %}</span></p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" name="download_receipt" class="btn btn-primary"><span>{% translate "Download Receipt" %}</span></button>
+    </form>
+{% endblock %}

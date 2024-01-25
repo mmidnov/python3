@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-25 13:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: okurmen/templates/base.html:123
+msgid "Okurmen"
+msgstr "Окурмен"
+
+#: okurmen/templates/base.html:131
+msgid "Home"
+msgstr "Главный"
+
+#: okurmen/templates/base.html:134
+msgid "Teachers"
+msgstr "Учителя"
+
+#: okurmen/templates/base.html:137 okurmen/templates/groups.html:9
+#: okurmen/templates/teachers.html:12
+msgid "Groups"
+msgstr "Группы"
+
+#: okurmen/templates/base.html:140
+msgid "Students"
+msgstr "Студенты"
+
+#: okurmen/templates/base.html:143
+msgid "Managers"
+msgstr "Менеджеры"
+
+#: okurmen/templates/groups.html:9
+msgid "Trainer"
+msgstr "Тренер"
+
+#: okurmen/templates/groups.html:9
+msgid "Mentor"
+msgstr "Наставник"
+
+#: okurmen/templates/groups.html:10
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: okurmen/templates/groups.html:10
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: okurmen/templates/home.html:6
+msgid "This is the home page content."
+msgstr "Это содержимое главной страницы."
+
+#: okurmen/templates/manager_details.html:8
+#, fuzzy
+#| msgid "Managers"
+msgid "Manager Number"
+msgstr "Номер Менеджера"
+
+#: okurmen/templates/manager_details.html:9
+msgid "Description"
+msgstr "Описание"
+
+#: okurmen/templates/manager_details.html:10
+msgid "Сколько студентов"
+msgstr "Сколько студентов"
+
+#: okurmen/templates/managers.html:9 okurmen/templates/students.html:9
+msgid "Number"
+msgstr "Номер"
+
+#: okurmen/templates/student_details.html:6
+#, fuzzy
+#| msgid "Students"
+msgid "Student Number"
+msgstr "Номер Студента"
+
+#: okurmen/templates/student_details.html:7
+msgid "Payment Amount"
+msgstr "К оплате"
+
+#: okurmen/templates/student_details.html:8
+#, fuzzy
+#| msgid "Start Date"
+msgid "Payment Date"
+msgstr "Дата платежа"
+
+#: okurmen/templates/student_details.html:9
+#, fuzzy
+#| msgid "Managers"
+msgid "Manager"
+msgstr "Менеджеры"
+
+#: okurmen/templates/student_details.html:16
+msgid "There is no receipt for payment."
+msgstr "Квитанции об оплате нет."
+
+#: okurmen/templates/student_details.html:21
+msgid "Download Receipt"
+msgstr "Скачать квитанцию"
+
+#: okurmen/templates/teachers.html:11
+msgid "Language Programming"
+msgstr "Язык программирование"
+
+#: okurmen/templates/teachers.html:12
+msgid "View groups"
+msgstr "Посмотреть группы"
+
+#: okurmens/settings.py:110
+msgid "English"
+msgstr ""
+
+#: okurmens/settings.py:111
+msgid "Russian"
+msgstr ""
+
+#: okurmens/settings.py:112
+msgid "Kyrgyzstan"
+msgstr ""
+
+#~ msgid "How many students"
+#~ msgstr "Сколько студентов"
+
+#~ msgid "Payment Receipt"
+#~ msgstr "Квитанция об оплате"
+
+
+#, fuzzy
+#~| msgid "Groups"
+#~ msgid "Group"
+#~ msgstr "Группы"
+
+#~ msgid "Welcome to Okurmen!"
+#~ msgstr "Добро пожаловать в Окурмен!"
+
+#, fuzzy
+#~| msgid "Welcome to Okurmen!"
+#~ msgid "Welcome to Okurmen Home"
+#~ msgstr "Добро пожаловать в Окурмен! Главная"
+
+#, fuzzy
+#~| msgid "Teachers"
+#~ msgid "Our Teachers"
+#~ msgstr "Наши учителя"
+
+#, fuzzy
+#~| msgid "Welcome to Okurmen!"
+#~ msgid "Teachers - Okurmen"
+#~ msgstr "Добро пожаловать в Окурмен! Главная"

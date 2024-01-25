@@ -1,0 +1,18 @@
+<!-- okurmen/templates/teachers.html -->
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+    <div class="card" style="width: 18rem;">
+        <div class="card">
+        {% for teacher in teachers_data %}
+            <h5 class="card-header">{{ teacher.name }}</h5>
+            <div class="card-body">
+              <h5 class="card-title">{% translate "Language Programming" %}: {{ teacher.programming_type }}</h5>
+              {% translate "Groups" %}:  <span><a href='{% url 'groups' %}'  class="btn btn-primary">{% translate "View groups" %}</span></a>
+
+              {% endfor %}
+            </div>
+          </div>
+    </div>
+{% endblock %}
